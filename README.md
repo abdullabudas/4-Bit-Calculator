@@ -5,6 +5,10 @@
 This project demonstrates the implementation of a 4-bit adder/subtractor built entirely from transistors and resistors to represent fundamental digital logic gates (AND, OR, NOT, XOR, NAND).  
 The design highlights how complex digital systems such as adders can be constructed at the transistor level, without relying on prebuilt logic gate components.
 
+## Video Demo
+[![Watch the demo](https://img.youtube.com/vi/T8PtresqV6k/0.jpg)](https://www.youtube.com/watch?v=T8PtresqV6k)
+
+
 ## Design Description
 
 The circuit implements four cascaded 1-bit full adders, each composed of 2 XOR gates, 2 AND gates, and 1 OR gate. In total, the design is built using approximately 200 NPN transistors. This forms a complete 4-bit arithmetic circuit capable of performing both addition and subtraction of two 4-bit binary numbers.
@@ -34,7 +38,5 @@ Below is the transistor-level implementation of the full 4-bit adder/subtractor 
 ├── images/                     # Screenshots and schematic images
 ├── schematics/                 # Logic and transistor-level schematics
 ├── simulations/                # Simulation results for addition/subtraction tests
-├── demo/                       # Video demo files
-│   └── 4-Bit-Calculator-Demo.mp4  # Demo video explaining & showing the working circuit
 └── README.md                   # Project overview and documentation
 ```
